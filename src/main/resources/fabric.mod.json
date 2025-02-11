@@ -6,7 +6,8 @@
   "description": "あじまんを追加する",
   "authors": ["yh", "るみ"],
   "contact": {
-    "homepage": "https://discord.gg/Emax6MP5Kb"
+    "homepage": "https://discord.gg/Emax6MP5Kb",
+    "sources": "https://github.com/yh2237/azimanMOD"
   },
   "license": "MIT",
   "icon": "assets/azimanmod/icon.png",
