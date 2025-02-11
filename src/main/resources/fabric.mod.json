@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "azimanmod",
+  "version": "${version}",
+  "name": "azimanMOD",
+  "description": "あじまんを追加する",
+  "authors": ["yh", "るみ"],
+  "contact": {
+    "homepage": "https://discord.gg/Emax6MP5Kb"
+  },
+  "license": "MIT",
+  "icon": "assets/azimanmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.yh.azimanmod.client.AzimanmodClient"
+    ],
+    "main": [
+      "me.yh.azimanmod.Azimanmod"
+    ]
+  },
+  "mixins": [
+    "azimanmod.mixins.json",
+    {
+      "config": "azimanmod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
